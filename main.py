@@ -5,6 +5,10 @@ import asyncio
 from discord.ext import commands
 from discord.ext.commands import has_permissions
 
+# pip install discord[voice]
+# pip install youtube_dl
+# you will need an ffmpeg
+
 with open('config.json') as e:
     infos = json.load(e)
     TOKEN = infos['token']
