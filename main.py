@@ -9,6 +9,8 @@ from discord.ext.commands import has_permissions
 # pip install youtube_dl
 # you will need an ffmpeg
 
+# you need to put your bot's token in the 'config.json' file, if you can't open it normally, try opening it with notepad
+
 with open('config.json') as e:
     infos = json.load(e)
     TOKEN = infos['token']
